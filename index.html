@@ -6,11 +6,23 @@
     <title>Ejercicio 02 - Formularios en HTML</title>
 </head>
 <body>
-    <form>
-        <label id="Nombre">
-            <input type="text">
-        </label>
-        
+    <form action="/" method="get">
+        <div>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre">
+        </div>
+        <div>
+            <label for="contraseña">Contraseña</label>
+            <input type="password" name="contraseña" id="contraseña">
+        </div>
+        <div>
+            <label for="frase-favorita">Frase Favorita</label>
+            <input type="text" name="frase-favorita" id="frase-favorita">
+        </div>
+        <div>
+            <button type="send">Enviar</button>
+            <button type="reset">Reset</button>
+        </div>
     </form>
 </body>
 </html>
